@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import TextSection from '../components/textSection';
+import TextSection from '../components/TextSection';
 import { useEffect } from 'react';
 import Experience from '../components/Experience';
 

@@ -1,4 +1,4 @@
-import TextSection from '../components/textSection';
+import TextSection from '../components/TextSection';
 
 const Contact = () => {
     return (
