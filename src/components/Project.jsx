@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 import Icons from "./Icons";
-import SmallButton from "./smallButton";
+import SmallButton from "./SmallButton";
 
 const Project = ({project}) => {
 
