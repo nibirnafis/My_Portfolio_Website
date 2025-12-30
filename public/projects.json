@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Clorr",
+        "type": "E-commerce Website",
+        "img_url": "/src/assets/CLORR.png",
+        "live_url": "https://e-commerce-web-app-five-nu.vercel.app/",
+        "repository": "https://e-commerce-web-app-five-nu.vercel.app/",
+        "techs": [ "typeScript", "nextjs", "tailwindcss", "redux", "gsap", "vercel", "prisma", "supabase" ]
+    },
+    {
+        "name": "Currencer",
+        "type": "Digital Wallet System Website",
+        "img_url": "/src/assets/CURRENCER.png",
+        "live_url": "https://e-commerce-web-app-five-nu.vercel.app/",
+        "repository": "https://e-commerce-web-app-five-nu.vercel.app/",
+        "techs": [ "react", "tailwindcss", "nodejs", "expressjs", "vercel" ]
+    },
+    {
+        "name": "Time Travel",
+        "type": "Digital Wallet System Website",
+        "img_url": "/src/assets/Time Travel.png",
+        "live_url": "https://e-commerce-web-app-five-nu.vercel.app/",
+        "repository": "https://e-commerce-web-app-five-nu.vercel.app/",
+        "techs": [ "javaScript", "tailwindcss" ]
+    }
+]

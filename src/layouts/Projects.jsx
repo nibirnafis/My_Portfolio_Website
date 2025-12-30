@@ -1,0 +1,40 @@
+import { useState } from "react";
+import TextSection from "../components/textSection";
+import { useEffect } from "react";
+import Project from "../components/Project";
+
+
+const Projects = () => {
+
+    const [ projects, setProjects ] = useState([])
+
+    useEffect(()=>{
+        
+        const loadProjects = async () => {
+            const res = await fetch("/projects.json")
+            const data = await res.json()
+
+            setProjects(data)
+        }
+
+        loadProjects()
+
+    }, [])
+    
+
+
+    return (
+        <>
+        <div className="page">
+            <TextSection></TextSection>
+            <div className="flex flex-col gap-2 md:gap-4">
+            {
+                projects.map((project, index) => <Project project={project} key={index}></Project>)
+            }
+            </div>
+        </div>
+        </>
+    );
+};
+
+export default Projects;

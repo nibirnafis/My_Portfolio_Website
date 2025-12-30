@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+
+
+@layer utilities {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+        line-height: 1;
+    }
+}
+
+
+
+@theme {
+    --text-exsml: 12px;
+    --text-sml: 16px;
+    --text-reg: 24px;
+    --text-med: 32px;
+    --text-lrg: 64px;
+
+    --color-red: #EA1D1D;
+    --color-orange: #EB9F10;
+    --color-green: #1ABD20;
+    --color-blue: #245DD8;
+    --color-purple: #8A19ED;
+    --color-black: #121212;
+    --color-base: #F3F3F3;
+
+    --font-Amaranth: "Amaranth";
+
+}
+
+
+
+@layer utilities {
+    .page {
+        @apply max-w-[1606px] m-auto
+    }
+}
+
+
+
+
+@layer component{
+
+
+    /* Text section styles */
+
+    .text-section {
+
+        @apply max-w-full mx-auto mb-8 md:mb-16 px-8;
+
+
+        .text-section-title {
+            @apply text-sml md:text-reg mb-4 md:mb-8 font-bold tracking-wide
+        }
+        .text-title {
+            @apply text-med md:text-lrg font-Amaranth mb-2 md:mb-4 font-bold
+        }
+        .text-detail {
+            @apply text-sml md:text-reg font-normal mb-4 md:mb-8 tracking-wider
+        }
+        .text-section-paragraph {
+            @apply text-exsml md:text-sml font-light leading-4 md:leading-6
+        }
+    }
+
+
+
+    /* Text section styles */
+
+    .main-section {
+
+        @apply max-w-full p-2 md:p-4 border rounded-2xl bg-white mx-4 lg:mx-0;
+
+
+        .tech-stack {
+            @apply grid grid-cols-3 lg:grid-cols-6 gap-2
+        }
+        
+
+        .project {
+            @apply w-full m-auto
+        }
+
+    }
+    
+
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "company": "Backbenchers Communications",
+        "post": "Creative Visualiser",
+        "type": "Creative Adverising Agency",
+        "img_url": "/src/assets/bbc.jpg",
+        "skills": [ "photoshop", "illustrator", "afterEffects", "blender3D" ],
+        "timeline": "March 2021 - May 2024"
+    }
+]

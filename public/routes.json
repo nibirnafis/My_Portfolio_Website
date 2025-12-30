@@ -1,0 +1,27 @@
+[
+    {
+        "title": "About",
+        "path": "/",
+        "color": "bg-red"
+    },
+    {
+        "title": "Technologies",
+        "path": "/technologies",
+        "color": "bg-orange"
+    },
+    {
+        "title": "Projects",
+        "path": "/projects",
+        "color": "bg-green"
+    },
+    {
+        "title": "Experience",
+        "path": "/experience",
+        "color": "bg-blue"
+    },
+    {
+        "title": "Contact",
+        "path": "/contact",
+        "color": "bg-purple"
+    }
+]

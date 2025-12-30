@@ -1,0 +1,100 @@
+[
+    {
+        "title": "LANGUAGE",
+        "techs": [
+            {
+                "name": "JavaScript",
+                "icon": "javaScript"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "typeScript"
+            }
+        ]
+    },
+    {
+        "title": "FRONTEND",
+        "techs": [
+            {
+                "name": "React",
+                "icon": "react"
+            },
+            {
+                "name": "Next JS",
+                "icon": "nextjs"
+            },
+            {
+                "name": "Redux",
+                "icon": "redux"
+            },
+            {
+                "name": "Tailwind CSS",
+                "icon": "tailwindcss"
+            },
+            {
+                "name": "GSAP",
+                "icon": "gsap"
+            }
+        ]
+    },
+    {
+        "title": "BACKEND",
+        "techs": [
+            {
+                "name": "Node JS",
+                "icon": "nodejs"
+            },
+            {
+                "name": "Express JS",
+                "icon": "expressjs"
+            },
+            {
+                "name": "JWT",
+                "icon": "jwt"
+            }
+        ]
+    },
+    {
+        "title": "DATABASE & ORM",
+        "techs": [
+            {
+                "name": "MongoDB",
+                "icon": "mongodb"
+            },
+            {
+                "name": "PRISMA",
+                "icon": "prisma"
+            }
+        ]
+    },
+    {
+        "title": "CLOUD & BAAS",
+        "techs": [
+            {
+                "name": "Vercel",
+                "icon": "vercel"
+            },
+            {
+                "name": "Supabase",
+                "icon": "supabase"
+            }
+        ]
+    },
+    {
+        "title": "TOOLS",
+        "techs": [
+            {
+                "name": "Git",
+                "icon": "git"
+            },
+            {
+                "name": "Github",
+                "icon": "github"
+            },
+            {
+                "name": "Postman",
+                "icon": "postman"
+            }
+        ]
+    }
+]
