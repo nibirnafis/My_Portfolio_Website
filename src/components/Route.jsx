@@ -9,8 +9,8 @@ const Route = ({route}) => {
     const { title, path, color } = route
 
     return (
-        <div className={location.pathname === path ? `${color} flex justify-center items-center rounded-t-md w-full h-10 md:h-12` : `${color} flex justify-center items-center w-full h-6`}>
-            <NavLink className="w-full text-white text-center font-Amaranth tracking-widest text-exsml md:text-sml font-light" to={path}>{title.toUpperCase()}</NavLink>
+        <div className={location.pathname === path ? `${color} flex justify-center items-center w-full h-10 md:h-12` : `${color} flex justify-center items-center w-full h-6`}>
+            <NavLink className="text-white text-center text-exsml md:text-sml tracking-normal md:tracking-widest font-light" to={path}>{title.toUpperCase()}</NavLink>
         </div>
 
     );

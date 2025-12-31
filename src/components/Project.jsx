@@ -4,7 +4,7 @@ import SmallButton from "./SmallButton";
 
 const Project = ({project}) => {
 
-    const {name, type, img_url, live_url, repository, techs } = project
+    const {name, type, img_url, /* live_url, repository */ techs } = project
 
     return (
         <div className="main-section border-green">
@@ -15,8 +15,8 @@ const Project = ({project}) => {
                 <div className='flex flex-col justify-between grow my-4'>
                     <div className='flex flex-col md:flex-row justify-between'>
                         <div>
-                            <p className="text-sml md:text-reg font-bold tracking-wider mb-1">{name}</p>
-                            <p className="text-exsml md:text-sml font-light">{type}</p>
+                            <p className="text-sml md:text-reg font-bold mb-1">{name}</p>
+                            <p className="text-exsml md:text-sml">{type}</p>
                         </div>
                         <div className="hidden md:flex flex-wrap gap-2 md:gap-4">
                             {

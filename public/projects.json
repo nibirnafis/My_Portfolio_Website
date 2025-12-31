@@ -5,7 +5,7 @@
         "img_url": "/assets/CLORR.png",
         "live_url": "https://e-commerce-web-app-five-nu.vercel.app/",
         "repository": "https://e-commerce-web-app-five-nu.vercel.app/",
-        "techs": [ "typeScript", "nextjs", "tailwindcss", "redux", "gsap", "vercel", "prisma", "supabase" ]
+        "techs": [ "typeScript", "nextjs", "tailwind", "redux", "gsap", "vercel", "prisma", "supabase" ]
     },
     {
         "name": "Currencer",
@@ -13,7 +13,7 @@
         "img_url": "/assets/CURRENCER.png",
         "live_url": "https://e-commerce-web-app-five-nu.vercel.app/",
         "repository": "https://e-commerce-web-app-five-nu.vercel.app/",
-        "techs": [ "react", "tailwindcss", "nodejs", "expressjs", "vercel" ]
+        "techs": [ "react", "tailwind", "nodejs", "expressjs", "vercel" ]
     },
     {
         "name": "Time Travel",
@@ -21,6 +21,6 @@
         "img_url": "/assets/Time Travel.png",
         "live_url": "https://e-commerce-web-app-five-nu.vercel.app/",
         "repository": "https://e-commerce-web-app-five-nu.vercel.app/",
-        "techs": [ "javaScript", "tailwindcss" ]
+        "techs": [ "javaScript", "tailwind" ]
     }
 ]

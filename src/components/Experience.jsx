@@ -12,7 +12,7 @@ const Experience = ({experience}) => {
                 <div className='overflow-clip max-w-[128px] md:max-w-[288px] border border-blue rounded-[13.6px]'>
                     <img src={img_url} alt="" />
                 </div>
-                <div className='flex flex-col justify-between grow my-8'>
+                <div className='flex flex-col justify-between grow my-4 md:my-8'>
                     <div className='flex justify-between'>
                         <div>
                             <p className='mb-2 text-exsml md:text-sml'>{post}</p>
