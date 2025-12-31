@@ -75,16 +75,16 @@
 
     .main-section {
 
-        @apply max-w-full p-2 md:p-4 border rounded-2xl bg-white mx-4 lg:mx-0;
+        @apply max-w-full border rounded-2xl bg-white mx-4 lg:mx-0;
 
 
         .tech-stack {
-            @apply grid grid-cols-3 lg:grid-cols-6 gap-2
+            @apply grid grid-cols-3 lg:grid-cols-6 gap-4 p-4
         }
         
 
         .project {
-            @apply w-full m-auto
+            @apply w-full m-auto p-2 md:p-4
         }
 
     }

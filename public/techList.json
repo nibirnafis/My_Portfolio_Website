@@ -20,7 +20,7 @@
                 "icon": "react"
             },
             {
-                "name": "Next JS",
+                "name": "NextJS",
                 "icon": "nextjs"
             },
             {
@@ -28,8 +28,8 @@
                 "icon": "redux"
             },
             {
-                "name": "Tailwind CSS",
-                "icon": "tailwindcss"
+                "name": "Tailwind",
+                "icon": "tailwind"
             },
             {
                 "name": "GSAP",
@@ -41,12 +41,16 @@
         "title": "BACKEND",
         "techs": [
             {
-                "name": "Node JS",
+                "name": "NodeJS",
                 "icon": "nodejs"
             },
             {
-                "name": "Express JS",
+                "name": "ExpressJS",
                 "icon": "expressjs"
+            },
+            {
+                "name": "PRISMA",
+                "icon": "prisma"
             },
             {
                 "name": "JWT",
@@ -55,28 +59,24 @@
         ]
     },
     {
-        "title": "DATABASE & ORM",
+        "title": "DATABASE",
         "techs": [
             {
                 "name": "MongoDB",
                 "icon": "mongodb"
             },
             {
-                "name": "PRISMA",
-                "icon": "prisma"
+                "name": "Supabase",
+                "icon": "supabase"
             }
         ]
     },
     {
-        "title": "CLOUD & BAAS",
+        "title": "CLOUD",
         "techs": [
             {
                 "name": "Vercel",
                 "icon": "vercel"
-            },
-            {
-                "name": "Supabase",
-                "icon": "supabase"
             }
         ]
     },

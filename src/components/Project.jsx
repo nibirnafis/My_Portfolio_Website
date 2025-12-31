@@ -24,10 +24,10 @@ const Project = ({project}) => {
                             }
                         </div>
                     </div>
-                    <div className="flex gap-2">
+                    {/* <div className="flex gap-2">
                         <SmallButton url={live_url} title='Live Link'></SmallButton>
                         <SmallButton url={repository} title='repository'></SmallButton>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
