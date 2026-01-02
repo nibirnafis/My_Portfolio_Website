@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import TextSection from '../components/TextSection';
 import { useState } from 'react';
-import Contact from '../components/contact';
+import Contact from '../components/Contact';
 
 const Contacts = () => {
 
