@@ -4,8 +4,8 @@
         "path": "/",
         "section_title": "Hello! This is",
         "title": "NAFISUL HAQUE KAHN",
-        "detail": "Web Developer",
-        "section_paragraph": "A creative visualizer turned full-stack web developer with 3 years of design experience. I combine strong visual sense with modern frontend and backend development to build clean, functional, and user-focused web experiences."
+        "detail": "Web Designer & Developer",
+        "section_paragraph": "I am a creative visualizer with 3 years of professional experience who transitioned into a full-stack web developer. My background in design helps me build visually appealing, user-friendly, and scalable web applications by combining strong aesthetics with modern frontend and backend development practices."
     },
     {
         "page": "Technologies",
@@ -13,7 +13,7 @@
         "section_title": "Here are",
         "title": "THE TECHNOLOGIES",
         "detail": "I use in Projects",
-        "section_paragraph": "The tools and technologies I use to design, build, and deploy modern web applications—covering frontend, backend, databases, and design workflows."
+        "section_paragraph": "This section highlights the technologies, tools, and frameworks I use to design and develop modern web applications. From frontend libraries and backend frameworks to databases and design tools, these technologies help me create efficient, scalable, and visually polished digital solutions."
     },
     {
         "page": "Projects",
@@ -21,7 +21,7 @@
         "section_title": "Here are",
         "title": "THE PROJECTS",
         "detail": "I did till now",
-        "section_paragraph": "A collection of projects that reflect my problem-solving skills, technical expertise, and attention to design—built using modern web technologies and real-world use cases."
+        "section_paragraph": "Here you'll find a selection of projects that demonstrate my skills in frontend and backend development, problem-solving, and UI design. Each project reflects real-world use cases, clean architecture, and thoughtful design decisions built using modern web technologies."
     },
     {
         "page": "Experience",
@@ -29,7 +29,7 @@
         "section_title": "Here are",
         "title": "THE EXPERIENCES",
         "detail": "I acquired throughout my career",
-        "section_paragraph": "My professional journey—from creative visualizer to web developer—highlighting hands-on experience, responsibilities, and the skills gained along the way."
+        "section_paragraph": "My professional experience includes working as a creative visualizer for 3 years and evolving into a web developer. This journey has strengthened my ability to blend design thinking with technical execution, allowing me to contribute effectively to both visual and functional aspects of web projects."
     },
     {
         "page": "Contact",
@@ -37,6 +37,6 @@
         "section_title": "Here are",
         "title": "THE CONNECTIONS",
         "detail": "to Connect directly with me",
-        "section_paragraph": "Let's work together. Reach out to discuss projects, collaborations, or opportunities—I'm always open to meaningful conversations."
+        "section_paragraph": "This page contains my contact information and ways to get in touch. Whether you want to discuss a project, collaboration, or opportunity, feel free to reach out. I’m always open to connecting and creating meaningful digital experiences together."
     }
 ]

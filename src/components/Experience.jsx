@@ -7,9 +7,9 @@ const Experience = ({experience}) => {
     const {company, post, timeline, type, img_url, skills } = experience
 
     return (
-        <div className="main-section border-blue">
+        <div className="main-section">
             <div className='project flex gap-2 md:gap-4'>
-                <div className='overflow-clip max-w-[128px] md:max-w-[288px] border border-blue rounded-[13.6px]'>
+                <div className='overflow-clip max-w-[128px] md:max-w-[256px] rounded-[13.6px]'>
                     <img src={img_url} alt="" />
                 </div>
                 <div className='flex flex-col justify-between grow my-4 md:my-8'>

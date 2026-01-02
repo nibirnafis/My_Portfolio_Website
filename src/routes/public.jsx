@@ -3,8 +3,8 @@ import App from "../App";
 import About from "../layouts/About";
 import Technologies from "../layouts/Technologies";
 import Projects from "../layouts/Projects";
-import Contact from "../layouts/Contact";
 import Experiences from "../layouts/Experiences";
+import Contacts from "../layouts/Contacts";
 
 
 export const router = createBrowserRouter([
@@ -30,7 +30,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/contact",
-                Component: Contact,
+                Component: Contacts,
             },
         ]
     }

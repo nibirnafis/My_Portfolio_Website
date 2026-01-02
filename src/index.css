@@ -28,7 +28,7 @@
     --color-blue: #245DD8;
     --color-purple: #8A19ED;
     --color-black: #121212;
-    --color-base: #F3F3F3;
+    --color-base: #f2f2f2;
 
     --font-Amaranth: "Amaranth";
 
@@ -75,16 +75,21 @@
 
     .main-section {
 
-        @apply max-w-full border rounded-2xl bg-white mx-4 lg:mx-0;
+        @apply max-w-full rounded-2xl bg-white mx-4 lg:mx-0 drop-shadow-none p-4;
 
 
         .tech-stack {
-            @apply grid grid-cols-3 lg:grid-cols-6 gap-x-2 md:gap-x-4 gap-y-4 p-2 md:p-4
+            @apply flex flex-col gap-4
         }
         
 
         .project {
-            @apply w-full m-auto p-2 md:p-4
+            @apply w-full m-auto 
+        }
+
+
+        .contacts {
+            @apply grid grid-cols-2 md:grid-cols-6 gap-4  items-center
         }
 
     }

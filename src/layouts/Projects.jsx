@@ -27,7 +27,7 @@ const Projects = () => {
         <>
         <div className="page">
             <TextSection></TextSection>
-            <div className="flex flex-col gap-2 md:gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
             {
                 projects.map((project, index) => <Project project={project} key={index}></Project>)
             }

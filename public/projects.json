@@ -9,7 +9,7 @@
     },
     {
         "name": "Currencer",
-        "type": "Digital Wallet System Website",
+        "type": "Digital Wallet System",
         "img_url": "/assets/CURRENCER.png",
         "live_url": "https://e-commerce-web-app-five-nu.vercel.app/",
         "repository": "https://e-commerce-web-app-five-nu.vercel.app/",
@@ -17,7 +17,7 @@
     },
     {
         "name": "Time Travel",
-        "type": "Digital Wallet System Website",
+        "type": "Fun Project",
         "img_url": "/assets/Time Travel.png",
         "live_url": "https://e-commerce-web-app-five-nu.vercel.app/",
         "repository": "https://e-commerce-web-app-five-nu.vercel.app/",

@@ -29,13 +29,12 @@ const Technologies = () => {
     return (
         <div className="page">
             <TextSection></TextSection>
-            <div className='main-section border-orange'>
-                <div className='tech-stack'>
-                    {
-                        techs.map((tech, index) => <TechLists tech={tech} key={index}></TechLists>)
-                    }
-                </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
+                {
+                    techs.map((tech, index) => <TechLists tech={tech} key={index}></TechLists>)
+                }
             </div>
+            
         </div>
     );
 };

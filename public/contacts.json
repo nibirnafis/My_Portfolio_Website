@@ -1,0 +1,32 @@
+[
+    {
+        "source": "Phone",
+        "info": "+8801771007344",
+        "icon_url": "/assets/icons/contacts/phone.png"
+    },
+    {
+        "source": "Email",
+        "info": "nibirnafis@gmail.com",
+        "icon_url": "/assets/icons/contacts/gmail.png"
+    },
+    {
+        "source": "Discord",
+        "info": "nibirnafis",
+        "icon_url": "/assets/icons/contacts/discord.png"
+    },
+    {
+        "source": "WhatsApp",
+        "info": "+8801771007344",
+        "icon_url": "/assets/icons/contacts/whatsApp.png"
+    },
+    {
+        "source": "Facebook",
+        "info": "Nafisul Haque Khan Nibir",
+        "icon_url": "/assets/icons/contacts/facebook.png"
+    },
+    {
+        "source": "Linkedin",
+        "info": "Nafisul Haque Khan Nibir",
+        "icon_url": "/assets/icons/contacts/linkedin.png"
+    }
+]
