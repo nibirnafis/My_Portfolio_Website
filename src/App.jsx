@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <NavigateTo></NavigateTo>
-    <div className=' min-h-screen bg-base py-12 md:py-24'>
+    <div className='min-h-screen bg-base pt-12 md:pt-24'>
       <div className='w-full'>
         <Outlet />
       </div>

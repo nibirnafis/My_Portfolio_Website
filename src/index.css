@@ -75,7 +75,7 @@
 
     .main-section {
 
-        @apply max-w-full rounded-2xl bg-white mx-4 lg:mx-0 drop-shadow-none p-4;
+        @apply max-w-full rounded-2xl bg-white mx-4  lg:mx-0 drop-shadow-none p-4;
 
 
         .tech-stack {
