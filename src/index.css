@@ -75,21 +75,26 @@
 
     .main-section {
 
-        @apply max-w-full rounded-2xl bg-white mx-4  lg:mx-0 drop-shadow-none p-4;
+        @apply max-w-full mx-4 pb-12 md:pb-24 ;
 
 
         .tech-stack {
-            @apply flex flex-col gap-4
+            @apply flex flex-col bg-white gap-4 p-4 rounded-2xl
         }
         
 
         .project {
-            @apply w-full m-auto 
+            @apply max-w-full  bg-white p-4 rounded-2xl
+        }
+        
+        
+        .experience {
+            @apply max-w-full  bg-white p-4 rounded-2xl
         }
 
 
-        .contacts {
-            @apply grid grid-cols-2 md:grid-cols-6 gap-4  items-center
+        .contact {
+            @apply flex flex-col items-center gap-2 bg-white p-4 rounded-2xl
         }
 
     }

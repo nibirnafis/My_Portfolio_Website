@@ -7,14 +7,12 @@ const TechLists = ({tech}) => {
 
 
     return (
-        <div className='main-section'>
-            <div className='tech-stack'>
-                <p className='text-exsml md:text-sml font-bold tracking-wide md:tracking-widest rounded-[13.6px] text-orange'>{title}</p>
-                <div className='flex flex-wrap gap-4'>
-                {
-                    techs.map((tech, index) => <TechData tech={tech} key={index}></TechData>)
-                }
-                </div>
+        <div className='tech-stack'>
+            <p className='text-exsml md:text-sml font-bold tracking-wide md:tracking-widest rounded-[13.6px] text-orangenpmr'>{title}</p>
+            <div className='grid grid-cols-3 md:grid-cols-5 gap-4'>
+            {
+                techs.map((tech, index) => <TechData tech={tech} key={index}></TechData>)
+            }
             </div>
         </div>
     );

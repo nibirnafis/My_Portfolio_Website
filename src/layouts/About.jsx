@@ -7,7 +7,7 @@ const About = () => {
         <>
         <div className="page">
             <TextSection></TextSection>
-            <div className="fixed bottom-0">
+            <div className="">
                 <img className="md:max-w-md" src="/assets/nibir.png" alt="" />
             </div>
         </div>

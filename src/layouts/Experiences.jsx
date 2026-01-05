@@ -26,7 +26,7 @@ const Experiences = () => {
         <>
         <div className="page">
             <TextSection></TextSection>
-            <div className="flex flex-col gap-8">
+            <div className="main-section">
             {
                 experiences.map((experience, index) => <Experience experience={experience} key={index}></Experience>)
             }

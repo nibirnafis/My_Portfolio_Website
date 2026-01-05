@@ -24,12 +24,10 @@ const Contacts = () => {
         <>
         <div className="page">
             <TextSection></TextSection>
-            <div className='main-section border-purple'>
-            <div className="contacts">
+            <div className='main-section grid grid-cols-2 md:grid-cols-6 gap-2 md:gap-4'>
             {
                 contacts.map((contact, index) => <Contact contact={contact} key={index}></Contact>)
             }
-            </div>
             </div>
         </div>
         </>

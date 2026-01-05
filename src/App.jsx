@@ -14,7 +14,7 @@ function App() {
     <NavigateTo></NavigateTo>
     <div className='min-h-screen bg-base pt-12 md:pt-24'>
       <div className='w-full'>
-        <Outlet />
+        <Outlet/>
       </div>
       <div className='w-full fixed bottom-0'>
         <Routes />

@@ -29,7 +29,7 @@ const Technologies = () => {
     return (
         <div className="page">
             <TextSection></TextSection>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
+            <div className="main-section grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
                 {
                     techs.map((tech, index) => <TechLists tech={tech} key={index}></TechLists>)
                 }

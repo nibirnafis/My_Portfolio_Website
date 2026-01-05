@@ -96,5 +96,39 @@
                 "icon": "postman"
             }
         ]
+    },
+    {
+        "title": "Design",
+        "techs": [
+            {
+                "name": "Figma",
+                "icon": "figma"
+            },
+            {
+                "name": "Photoshop",
+                "icon": "photoshop"
+            },
+            {
+                "name": "Illustrator",
+                "icon": "illustrator"
+            },
+            {
+                "name": "Blender3D",
+                "icon": "blender3d"
+            }
+        ]
+    },
+    {
+        "title": "AI",
+        "techs": [
+            {
+                "name": "Chat GPT",
+                "icon": "chatgpt"
+            },
+            {
+                "name": "Gemini",
+                "icon": "gemini"
+            }
+        ]
     }
 ]
