@@ -4,29 +4,29 @@ import SmallButton from "./SmallButton";
 
 const Project = ({project}) => {
 
-    const {name, type, img_url, /* live_url, repository */ techs } = project
+    const {name, type, img_url, live_url, repository, techs } = project
 
     return (
-        <div className='project flex gap-4'>
-            <div className='overflow-clip max-w-[128px] md:max-w-[256px]'>
+        <div className='project flex flex-col md:flex-row gap-4'>
+            <div className='overflow-clip min-w-[256px] md:max-w-[256px]'>
                 <img src={img_url} alt="" />
             </div>
-            <div className='flex flex-col justify-between grow my-4'>
-                <div className='h-full flex flex-col justify-between'>
+            <div className='flex flex-col gap-4 justify-between items-start grow md:my-4'>
+                <div className='w-full flex justify-between'>
                     <div>
-                        <p className="text-exsml md:text-sml font-bold tracking-wide md:tracking-widest mb-1 md:mb-2">{name.toUpperCase()}</p>
+                        <p className="text-sml md:text-reg font-bold tracking-wide mb-1">{name.toUpperCase()}</p>
                         <p className="text-exsml font-light md:text-sml">{type}</p>
                     </div>
-                    <div className="hidden md:flex flex-wrap gap-2 md:gap-4">
-                        {
-                            techs.map((icon, index) => <Icons icon={icon} key={index}></Icons>)
-                        }
+                    <div className="flex gap-2">
+                        <SmallButton url={live_url} title='Live Link'></SmallButton>
+                        <SmallButton url={repository} title='Repository'></SmallButton>
                     </div>
                 </div>
-                {/* <div className="flex gap-2">
-                    <SmallButton url={live_url} title='Live Link'></SmallButton>
-                    <SmallButton url={repository} title='repository'></SmallButton>
-                </div> */}
+                <div className="flex flex-wrap gap-4">
+                    {
+                        techs.map((icon, index) => <Icons icon={icon} key={index}></Icons>)
+                    }
+                </div>
             </div>
         </div>
     );

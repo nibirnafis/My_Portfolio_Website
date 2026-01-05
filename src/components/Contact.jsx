@@ -8,7 +8,7 @@ const Contact = ({contact}) => {
         <>
         <div className='contact'>
             <NavLink>
-                <img className='max-h-[64px] md:max-h-[128px] ' src={icon_url} alt="" />
+                <img className='max-h-[64px] md:max-h-[128px]' src={icon_url} alt="" />
             </NavLink>
             <p className='text-exsml md:text-sml text-center'>{info}</p>
         </div>
