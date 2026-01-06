@@ -22,7 +22,7 @@ const Project = ({project}) => {
                         <SmallButton url={repository} title='Repository'></SmallButton>
                     </div>
                 </div>
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-2 md:gap-4">
                     {
                         techs.map((icon, index) => <Icons icon={icon} key={index}></Icons>)
                     }

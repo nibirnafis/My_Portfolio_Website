@@ -18,7 +18,7 @@ const Experience = ({experience}) => {
                             <p className='text-exsml md:text-sml'>{type}</p>
                             {/* <p className='mb-2 text-exsml md:text-sml '>{post}{timeline}</p> */}
                         </div>
-                        <div className="hidden md:flex gap-2">
+                        <div className="hidden md:flex gap-4">
                             {
                                 skills.map((icon, index) => <Icons icon={icon} key={index}></Icons>)
                             }

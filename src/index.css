@@ -79,7 +79,7 @@
 
 
         .tech-stack {
-            @apply flex flex-col bg-white gap-4 p-4 rounded-2xl
+            @apply flex flex-col bg-white gap-4 p-4 rounded-2xl mb-2
         }
         
 

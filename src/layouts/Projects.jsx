@@ -27,7 +27,7 @@ const Projects = () => {
         <>
         <div className="page">
             <TextSection></TextSection>
-            <div className = "main-section grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4">
+            <div className = "main-section grid grid-cols-1 lg:grid-cols-2 gap-4">
             {
                 projects.map((project, index) => <Project project={project} key={index}></Project>)
             }
