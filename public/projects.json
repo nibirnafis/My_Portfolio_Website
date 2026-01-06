@@ -11,16 +11,16 @@
         "name": "Currencer",
         "type": "Digital Wallet System",
         "img_url": "/assets/CURRENCER.png",
-        "live_url": "https://e-commerce-web-app-five-nu.vercel.app/",
-        "repository": "https://e-commerce-web-app-five-nu.vercel.app/",
+        "live_url": "https://digital-wallet-system-frontend-two.vercel.app/",
+        "repository": "https://github.com/nibirnafis/Digital_Wallet_System_Backend/",
         "techs": [ "react", "tailwind", "nodejs", "expressjs", "vercel" ]
     },
     {
         "name": "Time Travel",
         "type": "Fun Project",
         "img_url": "/assets/Time Travel.png",
-        "live_url": "https://e-commerce-web-app-five-nu.vercel.app/",
-        "repository": "https://e-commerce-web-app-five-nu.vercel.app/",
+        "live_url": "https://nibirnafis.github.io/project_2/",
+        "repository": "https://github.com/nibirnafis/project_2/",
         "techs": [ "javaScript", "tailwind" ]
     }
 ]
