@@ -38,7 +38,7 @@
 
 @layer utilities {
     .page {
-        @apply max-w-[1606px] m-auto
+        @apply  max-w-[1606px] m-auto
     }
 }
 
@@ -79,22 +79,22 @@
 
 
         .tech-stack {
-            @apply flex flex-col bg-white gap-4 p-4 rounded-2xl mb-2
+            @apply flex flex-col bg-white gap-4 p-4 rounded-2xl shadow-lg
         }
         
 
         .project {
-            @apply max-w-full  bg-white p-4 rounded-2xl
+            @apply max-w-full  bg-white p-4 rounded-2xl shadow-lg
         }
         
         
         .experience {
-            @apply max-w-full  bg-white p-4 rounded-2xl
+            @apply max-w-full  bg-white p-4 rounded-2xl shadow-lg
         }
 
 
         .contact {
-            @apply flex flex-col items-center gap-2 bg-white p-4 rounded-2xl
+            @apply flex flex-col items-center gap-2 bg-white p-4 rounded-2xl shadow-lg
         }
 
     }
