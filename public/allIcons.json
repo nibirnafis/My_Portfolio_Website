@@ -1,0 +1,96 @@
+
+[
+    {
+        "name": "JavaScript",
+        "icon": "javaScript"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "typeScript"
+    },
+    {
+        "name": "React",
+        "icon": "react"
+    },
+    {
+        "name": "NextJS",
+        "icon": "nextjs"
+    },
+    {
+        "name": "Redux",
+        "icon": "redux"
+    },
+    {
+        "name": "Tailwind",
+        "icon": "tailwind"
+    },
+    {
+        "name": "GSAP",
+        "icon": "gsap"
+    },
+    {
+        "name": "NodeJS",
+        "icon": "nodejs"
+    },
+    {
+        "name": "ExpressJS",
+        "icon": "expressjs"
+    },
+    {
+        "name": "Prisma",
+        "icon": "prisma"
+    },
+    {
+        "name": "JWT",
+        "icon": "jwt"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "mongodb"
+    },
+    {
+        "name": "Supabase",
+        "icon": "supabase"
+    },
+    {
+        "name": "Vercel",
+        "icon": "vercel"
+    },
+    {
+        "name": "Git",
+        "icon": "git"
+    },
+    {
+        "name": "Github",
+        "icon": "github"
+    },
+    {
+        "name": "Postman",
+        "icon": "postman"
+    },
+
+    {
+        "name": "Figma",
+        "icon": "figma"
+    },
+    {
+        "name": "Photoshop",
+        "icon": "photoshop"
+    },
+    {
+        "name": "Illustrator",
+        "icon": "illustrator"
+    },
+    {
+        "name": "Blender3D",
+        "icon": "blender3d"
+    },
+    {
+        "name": "Chat GPT",
+        "icon": "chatgpt"
+    },
+    {
+        "name": "Gemini",
+        "icon": "gemini"
+    }
+]
