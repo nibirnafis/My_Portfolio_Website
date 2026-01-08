@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
-import AnimatedIcon from './animatedIcon';
+import AnimatedIcon from './AnimatedIcon';
 
 const IconsAnimation = () => {
     const [ techs, setTechs ] = useState([])

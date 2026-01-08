@@ -34,32 +34,3 @@ const AnimatedIcon = ({tech}) => {
 };
 
 export default AnimatedIcon;
-
-
-
-
-
-
-
-
-// className={`w-[${getRandomValues()}px]`}
-
-
-
-
-
-
-
-
-
-    // const [ value, setValue ] = useState(getRandomValues)
- 
-/*     useEffect(()=>{
-        const findRand = () => {
-
-            const randomNUmber = Math.floor(Math.random() * 100)
-            setValue(randomNUmber)
-        }
-        
-        findRand()
-    }, []) */
