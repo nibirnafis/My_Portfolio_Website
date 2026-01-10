@@ -18,7 +18,8 @@ const About = () => {
                 {
                     opacity: 0,
                     y: 20,
-                    delay: .3                }
+                    delay: .3                
+                }
             )
         }, { scope: container }
     )
