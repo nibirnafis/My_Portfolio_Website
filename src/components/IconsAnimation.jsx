@@ -23,7 +23,7 @@ const IconsAnimation = () => {
 
 
     return (
-        <div className="h-full flex justify-between">
+        <div className="flex justify-between">
             {
                 techs.map((tech, index) => <AnimatedIcon tech={tech} key={index}></AnimatedIcon>)
             }

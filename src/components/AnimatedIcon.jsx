@@ -14,7 +14,7 @@ const AnimatedIcon = ({tech}) => {
             style={
                 {
                     position: 'relative',
-                    '--y-start':  `${positionY-positionY}px`,
+                    '--y-start':  `0px`,
                     '--y-end':  `${positionY}px`
                 }
             }>

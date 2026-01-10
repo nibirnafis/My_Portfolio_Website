@@ -14,16 +14,18 @@ const Project = ({project}) => {
             <div className='flex flex-col gap-4 justify-between items-start grow md:my-4'>
                 <div className='w-full flex justify-between'>
                     <div>
-                        <p className="text-sml md:text-reg font-bold tracking-wide mb-1">{name.toUpperCase()}</p>
+                        <p className="text-exsml md:text-sml font-bold tracking-wide md:tracking-widest mb-1 text-green">{name.toUpperCase()}</p>
                         <p className="text-exsml font-light md:text-sml">{type}</p>
                     </div>
                     <div className="flex gap-2">
-                        <div className="text-exsml lg:text-sml text-green rotate-315">
-                            <NavLink to={live_url} title={live_url}>{'->'}</NavLink>
+                        <div className="w-4 text-exsml lg:text-sml">
+                            <NavLink to={live_url} title={live_url}>
+                                <img src="/assets/icons/reditect.svg" alt="Live Link" width="12" height="12"></img>
+                            </NavLink>
                         </div>
-                        <div className="w-4">
+                        <div className="w-4 text-exsml lg:text-sml">
                             <NavLink to={repository} title={repository}>
-                                <img src="/assets/icons/github.png" alt="" />
+                                <img src="/assets/icons/repository.svg" alt="Live Link" width="12" height="12"/>
                             </NavLink>
                         </div>
                     </div>

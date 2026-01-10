@@ -8,14 +8,15 @@ const About = () => {
         <>
         <div className="page">
             <TextSection></TextSection>
-            <div className="main-section h-full flex justify-center relative">
-                <div className="w-full">
-                    <IconsAnimation></IconsAnimation>
+            <div className="main-section">
+                <div className="flex flex-col justify-center items-center gap-4 md:gap-8">
+                    <div className="w-full">
+                        <IconsAnimation></IconsAnimation>
+                    </div>
+                    <div className="max-w-md bg-white rounded-2xl">
+                        <img className="rounded-2xl" src="/assets/nibir.png" alt="" />
+                    </div>
                 </div>
-                <div className="hidden md:block w-full">
-                    <IconsAnimation></IconsAnimation>
-                </div>
-                <img className="md:max-w-md rounded-2xl absolute" src="/assets/nibir.png" alt="" />
             </div>
 
 

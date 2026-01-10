@@ -109,7 +109,7 @@
 /* Animation */
 
 
-@keyframes animation-loop {
+ @keyframes animation-loop {
   0% {
     transform: rotate(0deg) scale(1);
   }
@@ -124,14 +124,13 @@
 
 .animate-icon {
   animation: animation-loop 3s linear infinite;
-  animation-delay: .2s;
+  animation-delay: .3s;
 }
 
 
 
 
-
-@keyframes position-loop {
+/* @keyframes position-loop {
     0% {
         top: var(--y-start);
         opacity: 1;
@@ -144,5 +143,5 @@
 
 .animate-position {
     animation: position-loop 3s ease-out forwards;
-    animation-delay: .2s;
-}
+    animation-delay: .3s;
+} */
