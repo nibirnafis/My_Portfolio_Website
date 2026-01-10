@@ -15,7 +15,7 @@ const Project = ({project}) => {
                 <div className='w-full flex justify-between'>
                     <div>
                         <p className="text-exsml md:text-sml font-bold tracking-wide md:tracking-widest mb-1 text-green">{name.toUpperCase()}</p>
-                        <p className="text-exsml font-light md:text-sml">{type}</p>
+                        <p className="text-exsml md:text-sml font-light">{type}</p>
                     </div>
                     <div className="flex gap-2">
                         <div className="w-4 text-exsml lg:text-sml">

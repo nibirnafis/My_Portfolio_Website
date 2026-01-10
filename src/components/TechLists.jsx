@@ -1,13 +1,15 @@
 import TechData from './TechData';
 
-const TechLists = ({tech}) => {
+
+
+
+const TechLists = ({tech, classname}) => {
 
     const { title, techs } = tech
-    // console.log(tech)
 
 
     return (
-        <div className='tech-stack'>
+        <div className={`${classname} tech-stack`}>
             <p className='text-exsml md:text-sml font-bold tracking-wide md:tracking-widest text-orange'>{title}</p>
             <div className='grid grid-cols-3 md:grid-cols-5 gap-4'>
             {
