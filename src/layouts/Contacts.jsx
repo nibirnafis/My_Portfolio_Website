@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import TextSection from '../components/TextSection';
 import { useState } from 'react';
 import Contact from '../components/Contact';
-import UseGSAP from '../utils/useGSAP';
+import UseGSAP from '../utils/UseGSAP';
 import { useRef } from 'react';
 
 const Contacts = () => {

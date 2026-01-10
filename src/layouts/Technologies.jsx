@@ -3,7 +3,7 @@ import TextSection from '../components/TextSection';
 import { useEffect } from 'react';
 import TechLists from '../components/TechLists';
 import { useRef } from 'react';
-import UseGSAP from '../utils/useGSAP';
+import UseGSAP from '../utils/UseGSAP';
 
 
 
