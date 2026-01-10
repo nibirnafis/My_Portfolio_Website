@@ -1,6 +1,5 @@
 import { useLocation } from "react-router";
 import { colorDefiner } from "../utils/colorDefiner";
-// import { useState } from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 

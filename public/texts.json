@@ -5,15 +5,15 @@
         "section_title": "Hello! This is",
         "title": "NAFISUL HAQUE KAHN",
         "detail": "Web Designer & Developer",
-        "section_paragraph": "I am a creative visualizer with 3 years of professional experience who transitioned into a full-stack web developer. My background in design helps me build visually appealing, user-friendly, and scalable web applications by combining strong aesthetics with modern frontend and backend development practices."
+        "section_paragraph": "I am a front-end leaning fullstack developer who also has working experince in design. I love doing creative and unique projects that chalanges my skills. I love building  do web animations and unique features. My background in design helps me build visually appealing, user-friendly, and scalable web applications by combining strong aesthetics with modern frontend and backend development practices."
     },
     {
         "page": "Technologies",
         "path": "/technologies",
         "section_title": "Here are",
         "title": "THE TECHNOLOGIES",
-        "detail": "I use in Projects",
-        "section_paragraph": "This section highlights the technologies, tools, and frameworks I use to design and develop modern web applications. From frontend libraries and backend frameworks to databases and design tools, these technologies help me create efficient, scalable, and visually polished digital solutions."
+        "detail": "I use in my Projects",
+        "section_paragraph": "The technologies, tools, and frameworks I use to design and develop modern web applications. From frontend libraries and backend frameworks to databases and design tools, these technologies help me create efficient, scalable, and visually polished digital solutions."
     },
     {
         "page": "Projects",
@@ -21,7 +21,7 @@
         "section_title": "Here are",
         "title": "THE PROJECTS",
         "detail": "I did till now",
-        "section_paragraph": "Here you'll find a selection of projects that demonstrate my skills in frontend and backend development, problem-solving, and UI design. Each project reflects real-world use cases, clean architecture, and thoughtful design decisions built using modern web technologies."
+        "section_paragraph": "The projects that demonstrate my skills in frontend and backend development, problem-solving, and UI design. Each project reflects real-world use cases, clean architecture, and thoughtful design decisions built using modern web technologies."
     },
     {
         "page": "Experience",
