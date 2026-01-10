@@ -2,10 +2,17 @@ import { useState } from 'react';
 import TextSection from '../components/TextSection';
 import { useEffect } from 'react';
 import Experience from '../components/Experience';
+import { useRef } from 'react';
+import UseGSAP from '../utils/useGSAP';
 
 const Experiences = () => {
 
     const [ experiences, setExperiences ] = useState([])
+
+
+    const container = useRef()
+
+    UseGSAP(container, '.experince-class', experiences)
 
     useEffect(()=>{
         
@@ -26,9 +33,9 @@ const Experiences = () => {
         <>
         <div className="page">
             <TextSection></TextSection>
-            <div className="main-section">
+            <div ref={container} className="main-section">
             {
-                experiences.map((experience, index) => <Experience experience={experience} key={index}></Experience>)
+                experiences.map((experience, index) => <Experience className='experince-class' experience={experience} key={index}></Experience>)
             }
             </div>
         </div>

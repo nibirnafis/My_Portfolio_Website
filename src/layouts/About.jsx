@@ -1,8 +1,27 @@
 import { NavLink } from "react-router";
 import TextSection from "../components/TextSection";
 import IconsAnimation from "../components/IconsAnimation";
+import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+
+
+gsap.registerPlugin(useGSAP);
+
 
 const About = () => {
+
+    const container = useRef()
+
+    useGSAP(()=>{
+            gsap.from(".image-class", 
+                {
+                    opacity: 0,
+                    y: 20,
+                    delay: .3                }
+            )
+        }, { scope: container }
+    )
 
     return (
         <>
@@ -13,8 +32,8 @@ const About = () => {
                     <div className="w-full">
                         <IconsAnimation></IconsAnimation>
                     </div>
-                    <div className="max-w-md bg-white rounded-2xl">
-                        <img className="rounded-2xl" src="/assets/nibir.png" alt="" />
+                    <div ref={container} className="max-w-md bg-white rounded-2xl">
+                        <img className="image-class rounded-2xl" src="/assets/nibir.png" alt="" />
                     </div>
                 </div>
             </div>

@@ -2,12 +2,12 @@ import React from 'react';
 import Icons from "./Icons";
 
 
-const Experience = ({experience}) => {
+const Experience = ({experience, className}) => {
 
     const {company, post, timeline, type, img_url, skills } = experience
 
     return (
-            <div className='experience flex gap-4'>
+            <div className={`experience ${className} flex gap-4`}>
                 <div className='overflow-clip max-w-[128px] rounded-[13.6px]'>
                     <img src={img_url} alt="" />
                 </div>

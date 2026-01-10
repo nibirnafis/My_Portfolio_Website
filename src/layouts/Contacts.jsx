@@ -2,10 +2,17 @@ import { useEffect } from 'react';
 import TextSection from '../components/TextSection';
 import { useState } from 'react';
 import Contact from '../components/Contact';
+import UseGSAP from '../utils/useGSAP';
+import { useRef } from 'react';
 
 const Contacts = () => {
 
     const [ contacts, setContacts ] = useState([])
+
+    const container = useRef()
+
+    UseGSAP(container, '.contact-class', contacts)
+
     
     useEffect(()=>{
         
@@ -24,9 +31,9 @@ const Contacts = () => {
         <>
         <div className="page">
             <TextSection></TextSection>
-            <div className='main-section grid grid-cols-2 md:grid-cols-6 gap-2 md:gap-4'>
+            <div ref={container} className='main-section grid grid-cols-2 md:grid-cols-6 gap-2 md:gap-4'>
             {
-                contacts.map((contact, index) => <Contact contact={contact} key={index}></Contact>)
+                contacts.map((contact, index) => <Contact  className="contact-class" contact={contact} key={index}></Contact>)
             }
             </div>
         </div>

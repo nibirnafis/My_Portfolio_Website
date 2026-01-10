@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router';
 
-const Contact = ({contact}) => {
+const Contact = ({contact, className}) => {
 
     const {icon_url, info } = contact
     return (
         <>
-        <div className='contact'>
+        <div className={`contact ${className}`}>
             <NavLink>
                 <img className='max-h-[64px] md:max-h-[128px]' src={icon_url} alt="" />
             </NavLink>

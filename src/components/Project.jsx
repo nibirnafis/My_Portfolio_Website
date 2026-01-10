@@ -1,13 +1,12 @@
 import { NavLink } from "react-router";
 import Icons from "./Icons";
-import SmallButton from "./SmallButton";
 
-const Project = ({project}) => {
+const Project = ({project, className}) => {
 
     const {name, type, img_url, live_url, repository, techs } = project
 
     return (
-        <div className='project flex flex-col md:flex-row gap-4'>
+        <div className={`project ${className} flex flex-col md:flex-row gap-4`}>
             <div className='overflow-clip min-w-[256px] md:max-w-[256px] rounded-xl'>
                 <img src={img_url} alt="" />
             </div>
