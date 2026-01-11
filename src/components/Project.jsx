@@ -16,7 +16,7 @@ const Project = ({project, className}) => {
                         <p className="text-exsml md:text-sml font-bold tracking-wide md:tracking-widest mb-1 text-green">{name.toUpperCase()}</p>
                         <p className="text-exsml md:text-sml font-light">{type}</p>
                     </div>
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 md:gap-4">
                         <div className="w-4 text-exsml lg:text-sml">
                             <NavLink to={live_url} title={live_url}>
                                 <img src="/assets/icons/reditect.svg" alt="Live Link" width="12" height="12"></img>

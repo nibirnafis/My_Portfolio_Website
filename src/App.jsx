@@ -12,8 +12,8 @@ function App() {
   return (
     <>
     <NavigateTo></NavigateTo>
-    <div className='min-h-screen bg-base pt-12 md:pt-24'>
-      <div className='w-full'>
+    <div className='min-h-screen bg-base pt-12 md:pt-24 relative'>
+      <div className='w-full '>
         <Outlet/>
       </div>
       <div className='w-full fixed bottom-0'>
