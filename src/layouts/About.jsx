@@ -40,7 +40,7 @@ const About = () => {
             </div>
 
 
-            <div className="flex flex-col gap-2 md:gap-4 fixed right-4 bottom-8 md:bottom-16">
+            <div className="flex flex-col gap-2 md:gap-4 fixed right-4 bottom-12 md:bottom-16">
                 <NavLink to='https://github.com/nibirnafis' title="https://github.com/nibirnafis" target="_blank" rel="noopener noreferrer">
                     <div className="flex gap-2 p-2 bg-white rounded-xl ">
                         <img className="w-4" src="/assets/icons/github.png" alt="" />
