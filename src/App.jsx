@@ -2,6 +2,7 @@ import { Outlet } from 'react-router'
 import './App.css'
 import Routes from './components/Routes'
 import NavigateTo from './utils/NavigateTo'
+import Notice from './utils/Notice'
 
 
 
@@ -11,8 +12,10 @@ function App() {
 
   return (
     <>
-    <NavigateTo></NavigateTo>
-    <div className='min-h-screen bg-base pt-12 md:pt-24 relative'>
+
+    <div className='min-h-screen bg-base'>
+      <Notice></Notice>
+      <NavigateTo></NavigateTo>
       <div className='w-full '>
         <Outlet/>
       </div>
@@ -20,6 +23,7 @@ function App() {
         <Routes />
       </div>
     </div>
+
     </>
   )
 }

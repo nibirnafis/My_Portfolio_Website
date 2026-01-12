@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from 'react-router';
-
+import Notice from './Notice';
 
 
 
@@ -11,7 +11,7 @@ const NavigateTo = () => {
     const routes = [ "/", "/technologies", "/projects", "/experience", "/contact" ]
     const index = routes.indexOf(location.pathname)
 
-
+    
     const removeListner = () => {
         window.removeEventListener('keydown', useArrow)
     }
@@ -22,12 +22,10 @@ const NavigateTo = () => {
         if(event.key === 'ArrowRight'){
             if(index < (routes.length-1)){
                 navigate(routes[index+1])
-                console.log('r')
                 removeListner()
             }
         }else if(event.key === 'ArrowLeft'){
             if(index > 0){
-                console.log('l')
                 navigate(routes[index-1])
                 removeListner()
             }
@@ -37,7 +35,11 @@ const NavigateTo = () => {
 
     
     
-    return window.addEventListener('keydown', useArrow)
+    return (
+
+            window.addEventListener('keydown', useArrow)
+
+    )
 };
 
 export default NavigateTo;
