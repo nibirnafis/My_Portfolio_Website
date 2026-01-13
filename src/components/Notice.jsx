@@ -6,14 +6,15 @@ const Notice = () => {
 
     const [ isVisible, setIsVisible ] = useState(false)
 
+
     useEffect(()=>{
         setTimeout(() => setIsVisible(true), 1000)
         setTimeout(() => setIsVisible(false), 8000)
     }, [])
 
     return (
-        <div className={`w-full hidden md:flex justify-center mx-auto fixed top-0 transition-transform delay-300 duration-300 ${isVisible ?  'translate-y-8' : '-translate-y-full'}`}>
-            <p className='text-black bg-white text-sml py-2 px-4 rounded-2xl drop-shadow-md'>USE ARROW KEYS {'<'} {'>'} TO NAVIGATE</p>
+        <div className={`w-full hidden md:flex justify-center mx-auto fixed top-0 right-8 transition-transform delay-300 duration-500 ${isVisible ?  'translate-y-8' : '-translate-y-full'}`}>
+            <p className='text-white bg-red text-sml py-2 px-4 rounded-lg'>Use {'<'} {'>'} To Navigate Pages</p>
         </div>
     );
 };

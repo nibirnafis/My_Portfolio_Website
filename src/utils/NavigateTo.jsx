@@ -1,5 +1,4 @@
 import { useLocation, useNavigate } from 'react-router';
-import Notice from './Notice';
 
 
 
@@ -35,11 +34,7 @@ const NavigateTo = () => {
 
     
     
-    return (
-
-            window.addEventListener('keydown', useArrow)
-
-    )
+    return window.addEventListener('keydown', useArrow)
 };
 
 export default NavigateTo;

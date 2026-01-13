@@ -2,7 +2,7 @@ import { Outlet } from 'react-router'
 import './App.css'
 import Routes from './components/Routes'
 import NavigateTo from './utils/NavigateTo'
-import Notice from './utils/Notice'
+import Notice from './components/Notice'
 
 
 
