@@ -13,7 +13,7 @@ const Notice = () => {
     }, [])
 
     return (
-        <div className={`w-full hidden md:flex justify-center mx-auto fixed top-0 right-8 transition-transform delay-300 duration-500 ${isVisible ?  'translate-y-8' : '-translate-y-full'}`}>
+        <div className={`w-full hidden md:flex justify-center mx-auto fixed top-0 right-8 transition-transform delay-500 duration-500 ${isVisible ?  'translate-y-8' : '-translate-y-full'}`}>
             <p className='text-white bg-red text-sml py-2 px-4 rounded-lg'>Use {'<'} {'>'} To Navigate Pages</p>
         </div>
     );
