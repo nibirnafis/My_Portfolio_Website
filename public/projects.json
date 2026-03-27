@@ -1,5 +1,13 @@
 [
     {
+        "name": "Quick Hire",
+        "type": "Job Portal Website",
+        "img_url": "/assets/Quick Hire.png",
+        "live_url": "https://quick-hire-full-stack-project.vercel.app/",
+        "repository": "https://github.com/nibirnafis/QuickHire-Full-Stack-Project/",
+        "techs": [ "typeScript", "nextjs", "tailwind", "mongodb", "expressjs", "vercel" ]
+    },
+    {
         "name": "Clorr",
         "type": "E-commerce Website",
         "img_url": "/assets/CLORR.png",
